@@ -22,7 +22,6 @@ public class NoteBook {
                     break;
                 case 2:
                     taskList();
-                    //System.out.println(list);
                     break;
                 case 3:
                     removeTask();
@@ -55,6 +54,7 @@ public class NoteBook {
             System.out.println(i + 1 + ". " + list.get(i));
         }
     }
+
     private static void removeTask() {
         System.out.println("Введите номер задачи для удаления: ");
         int position = Integer.parseInt(scanner.nextLine());
